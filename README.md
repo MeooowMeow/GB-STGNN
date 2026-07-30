@@ -18,15 +18,6 @@ python preprocess_lamah_ce.py \
   --out-dir dataset/processed_lamah_ce
 ```
 
-The default configuration uses:
-
-- the `B_basins_intermediate_all` basin delineation;
-- daily data from January 1, 1981, to December 31, 2017;
-- 1981–2009 for training, 2010–2013 for validation, and 2014–2017 for testing;
-- five dynamic features: `qobs`, `prec`, `2m_temp_mean`, `total_et`, and `swe`;
-- a 30-day input window and forecast horizons of 1, 3, and 7 days;
-- normalization statistics computed exclusively from the training set to prevent data leakage.
-
 ## Quick Start
 
 ### 1. Build the Granular-Ball Graph
