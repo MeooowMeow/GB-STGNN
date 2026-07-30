@@ -1,5 +1,3 @@
-"""Standalone GB-STGNN training for variance-seed topology-penalty balls."""
-
 from __future__ import annotations
 
 import argparse
