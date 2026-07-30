@@ -1,3 +1,5 @@
+## GB-STGNN
+
 ## Data Preparation
 
 1. Download the daily dataset archive, `2_LamaH-CE_daily.tar.gz`, from the [official LamaH-CE data repository](https://doi.org/10.5281/zenodo.4525244).
